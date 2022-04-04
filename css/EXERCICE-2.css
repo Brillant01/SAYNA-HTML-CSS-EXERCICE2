@@ -1,0 +1,244 @@
+
+:root{
+    --f1:#FFFFFF;
+	--f2:#27242b;
+	--f3:#27242b;
+	--f4:#3d9f96;
+	--f5:#322f36;
+	--f6:#f7f7f7;
+	--f7:#f9f9f9;
+	--f8:#ababab;
+	--f9:#7e7e7e;
+	--f10:#27242b;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+/* ------------Header----------- */
+header{
+    justify-content: space-around;
+    display: flex;
+    background-color: #322f36;
+    padding: 1% 0;
+}
+
+header img{
+    width: 20%;
+    padding-right: 10% ;
+}
+
+header div a{
+    text-decoration: none;
+    color: white;
+    padding: 0 80px;
+    position: relative;
+    top: 30%;
+
+}
+
+header a{
+    margin-top: 25px ;
+    color: #3d9f96;
+    padding: 0;
+}
+
+hr{
+    margin: 0;
+}
+
+/* ---------------body-------------- */
+/* -------------1er section--------- */
+
+section.sect-1{
+    text-align: center;
+    background-color: #322f36;
+    padding: 5% 0;
+    color: white;
+}
+
+.sect-1 .titre{
+    font-size: 85px;
+}
+
+.sect-1 button{
+    margin-top: 3%;
+    color: white;
+    padding: 0.5% 2.5%;
+    background-color: #3d9f96;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+}
+
+.sect-1 img{
+    width: 60%;
+    margin-top: 100px ;
+}
+
+/*----------------- 2eme section---------------- */
+
+section.sect-2{
+    background-color: #f7f7f7;
+    padding: 2%;
+    text-align: center;
+}
+
+.sect-2 > div{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*--------------- 3eme section --------------*/
+section.sect-3{
+    text-align: center;
+    padding: 5%;
+}
+
+.sect-3 .titre{
+    font-size: 55px;
+}
+
+.sect-3 .d-flex{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    background-image: url();
+}
+
+.sect-3 img{
+    width: 15%;
+}
+
+.sect-3 .img-center{
+    width: 100%;
+}
+
+/*-------------------- 4eme section-------------- */
+
+section.sect-4{
+    background-color: #322f36;
+    padding: 5%;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*-------------------- 5eme section-------------- */
+
+section.sect-5{
+    padding: 2%;
+    background-color: #f7f7f7;
+    font-size: 25px;
+}
+
+section.sect-5 p {
+    position:relative;
+    right: -26.8%;
+    font-size: 45px ;
+}
+
+section.sect-5 div{
+    width: 50%;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+section.sect-5 img{
+    width: 150%;
+}
+
+/*-------------------- 6eme section-------------- */
+
+section.sect-6 {
+    padding: 5%;
+   
+
+    margin: 0 auto;
+}
+
+.sect-6 .ligne-1{
+    display: flex;
+    padding: 5%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+section.sect-6 .bg-img {
+    background-image: url(/assets/img/dzdzd.png);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding: 200px ;
+}
+
+section.sect-6 .text{
+    font-size: 25px ;
+}
+
+section.sect-6 .text button{
+    padding: 20px 60px;
+    background-color: #3d9f96;
+    color: white;
+    border-radius: 40px ;
+    border: none;
+    margin-top: 22%;
+    font-size: 20px;
+}
+
+section.sect-6 .text p.titre{
+    font-size: 45px;
+}
+
+section.sect-6 .layer{
+    width: 45%;
+    padding-left: 10%;
+}
+
+/*-------------------- 7eme section-------------- */
+
+section.sect-7{
+    background-color: #f7f7f7;
+    padding: 5% 20%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row ;
+    font-size: 25px;
+    justify-content: space-around;
+}
+section.sect-7 div{
+    padding: 10px;
+}
+
+section.sect-7 div.colonne1{
+    width: 460px;
+}
+
+section.sect-7 div p{
+    margin: 0;
+}
+
+section.sect-7 img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+div.colonne2, div.colonne3{
+    margin-top:
+}
+
+/* --------------------------footer--------------------- */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
